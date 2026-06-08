@@ -1,37 +1,174 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=divice-width,initial-scale=1.0">
-    <title>John Doe | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ANDREA M - Resume</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body{
+        background:#f4f4f4;
+        padding:20px;
+    }
+
+    .resume{
+        max-width:900px;
+        margin:auto;
+        background:#fff;
+        padding:30px;
+        box-shadow:0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .header{
+        text-align:center;
+        margin-bottom:20px;
+    }
+
+    .header h1{
+        color:#222;
+        margin-bottom:8px;
+    }
+
+    .contact{
+        font-size:14px;
+        color:#555;
+    }
+
+    h2{
+        color:#1f4e79;
+        border-bottom:2px solid #1f4e79;
+        padding-bottom:5px;
+        margin-top:20px;
+        margin-bottom:10px;
+    }
+
+    p, li{
+        line-height:1.6;
+        color:#333;
+    }
+
+    ul{
+        padding-left:20px;
+    }
+
+    .section{
+        margin-bottom:15px;
+    }
+
+    .job-title{
+        font-weight:bold;
+    }
+
+    .date{
+        float:right;
+        color:#666;
+    }
+
+    .clearfix::after{
+        content:"";
+        display:block;
+        clear:both;
+    }
+</style>
 </head>
+
 <body>
-    <div class="container">
-        <h1>John Doe</h1>
-        <h3>Computer Science Student | BCA</h3>
 
-        <h2>About Me</h2>
-        <p>I am a BCA student interested in web development, Python and data entry.</p>
+<div class="resume">
 
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML, CSS</li>
-            <li>Python</li>
-            <li>Data Entry</li>
-            <li>MS Excel</li>
-        </ul>
-
-        <h2>Projects</h2>
-        <ul>
-            <li>Student Data Entry System (Excel)</li>
-            <li>Simple calculator(Python)</li>
-        </ul>
-
-        <h2>Contact</h2>
-        <p>Email: johndoe@example.com</p>
+    <div class="header">
+        <h1>ANDREA M</h1>
+        <div class="contact">
+            📞 +91 123-456-7890 |
+            ✉️ andream@gmail.com |
+            📍 Ernakulam, Kerala
+        </div>
     </div>
+
+    <div class="section">
+        <h2>Professional Summary</h2>
+        <p>
+            Motivated and detail-oriented BCA (Honours) student specializing in Data Science
+            with strong foundations in Python, data analysis, data visualization, and
+            statistical techniques. Passionate about transforming data into actionable insights
+            and seeking opportunities to apply analytical and problem-solving skills in a Data Analyst role.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+
+        <div class="clearfix">
+            <span class="job-title">Bachelor of Computer Applications - Data Science</span>
+            <span class="date">2021 - 2024</span>
+        </div>
+
+        <p>ABC COLLEGE ERNAKULAM</p>
+        <p>
+            Achieved 90%, 93%, and 95% scores in the first three semesters.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Experience</h2>
+
+        <div class="clearfix">
+            <span class="job-title">Python Intern</span>
+            <span class="date">Apr 2026 - May 2026</span>
+        </div>
+
+        <p>Infopark, Kakkanad</p>
+
+        <ul>
+            <li>Completed a 240-hour Python Internship.</li>
+            <li>Worked on Python programming and problem-solving tasks.</li>
+            <li>Developed practical applications using Python.</li>
+            <li>Strengthened understanding of software development practices.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Projects</h2>
+
+        <p><strong>Student Performance Analysis System (Excel)</strong></p>
+        <ul>
+            <li>Developed an Excel-based dashboard using formulas, charts, and analytics.</li>
+            <li>Tracked and analyzed student academic performance effectively.</li>
+        </ul>
+
+        <p><strong>Sales Dashboard (Power BI)</strong></p>
+        <ul>
+            <li>Built an interactive sales dashboard using Power BI.</li>
+            <li>Used KPI cards, charts, and slicers to monitor business performance.</li>
+            <li>Analyzed product and category-wise sales trends.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+
+        <ul>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Power BI</li>
+            <li>Data Analytics</li>
+            <li>Data Visualization</li>
+            <li>Microsoft Excel</li>
+            <li>Database Management</li>
+            <li>Problem Solving</li>
+            <li>Communication</li>
+            <li>Leadership</li>
+        </ul>
+    </div>
+
+</div>
+
 </body>
 </html>
-
-
